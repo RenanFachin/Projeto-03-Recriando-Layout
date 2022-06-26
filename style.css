@@ -1,0 +1,112 @@
+body{
+    background-color: #2F2E41;
+    font-family: 'JetBrains Mono', monospace;
+
+    margin: 0px;
+    min-height: 100vh;
+}
+
+.page{
+    width: 1092px;
+    margin: 0px auto;
+
+}
+
+nav{
+    /*Ajustamos os itens do nav: logo + ul*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top:71px;
+    margin-bottom: 101px;
+}
+
+ul{
+    /*Ajustamos os elementos da lista um ao lado da outra, retirado o estilo e colocado um gap entre elementos da lista*/
+    display: flex;
+    list-style: none;
+    gap: 64px;
+
+    margin: 0px;
+    padding: 0px;
+
+    font-size: 14px;
+    line-height: 28px;
+}
+
+ul li a{
+    /*Modificado caracteristicas da fonte*/
+    text-decoration: none;
+    color: white;
+    opacity: 0.9;
+}
+
+ul li a:hover{
+    font-weight: bold;
+    color:#00BFA6;
+}
+
+
+main{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    text-align: center;
+
+    margin-bottom: 157px;
+}
+
+h1{
+    padding-bottom: 59px;
+    font-size: 36px;
+    line-height: 40px;
+    color: white;
+}
+
+section p{
+    font-family: 'Open Sans', sans-serif;
+    width: 604px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #C2C2C2;
+}
+
+span{
+    color: #00BFA6;
+}
+
+footer{
+    text-align: center;
+    text-decoration: none;
+    color:white;
+
+    font-size: 14px;
+    line-height: 28px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color:#00BFA6;
+}
+
+#line{
+    width: 568px;
+    height: 0px;
+
+    margin: 0px auto 27px;
+    border: 1px #00BFA6 solid;
+}
+
+#cadeado{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
